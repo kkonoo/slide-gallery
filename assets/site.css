@@ -59,6 +59,7 @@ a.card:hover { border-color: var(--accent); box-shadow: 0 6px 20px rgba(15,30,50
 .principles span { color: var(--sub); font-size: 14px; }
 .three { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
 .box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+.box.start { margin-top: 14px; }
 .box h3 { color: var(--accent); }
 .box p, .box li { font-size: 15px; }
 .box ul, .box ol { padding-left: 20px; margin: 6px 0; }
